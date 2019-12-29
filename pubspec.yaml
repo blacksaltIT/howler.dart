@@ -8,7 +8,10 @@ environment:
   sdk: '>=2.1.0 <3.0.0'
 
 dependencies:
- swiss_knife: ^2.0.0
+ swiss_knife: 
+  git: 
+    url: https://github.com/blacksaltIT/swiss_knife
+    ref: 4fc2d9f68904a04b776b8e0ef94c66e38066685c
 
 
 dev_dependencies:
